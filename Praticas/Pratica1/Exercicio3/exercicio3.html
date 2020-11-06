@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Form</title>
+    <meta charset="UTF-8">
+  </head>
+
+  <body>
+    <form action="save.php" method="get">
+        <!-- form controls go here -->
+        <p>Name:<input type="text" name="Name"><br></p>
+        <p>Age:</p>
+        &emsp;&emsp;<label><input type="radio" name="age" value="18">18<br></label>
+        &emsp;&emsp;<label><input type="radio" name="age" value="19-35">19-35<br></label>
+        &emsp;&emsp;<label><input type="radio" name="age" value="36-48">36-48<br></label>
+        &emsp;&emsp;<label><input type="radio" name="age" value=">=49">>=49<br></label>
+        <p>Profession:<input type="text" name="Profession"><br></p>
+        <select name="Country">
+            <option value="Portugal">Portugal</option>
+            <option value="Spain" selected>Spain</option>
+            <option value="Germany">Germany</option>
+            <option value="Brasil">Brasil</option>
+        </select><br>
+        <ul>
+            <li><input type="checkbox" name="Preference" value="Bike">Ride a bike</li>
+            <li><input type="checkbox" name="Preference" value="Car">Drive a car</li>
+            <li><input type="checkbox" name="Preference" value="Games">Play games</li>
+        </ul><br>
+        <p>How Did You Find This Website:</p> <textarea name="description" rows="4" cols="50">
+            </textarea>
+            <br>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

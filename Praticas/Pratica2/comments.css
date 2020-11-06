@@ -1,0 +1,59 @@
+section#news section#comments article.comment p
+{
+    background-color: #EDEFF0;
+    margin: 2em;
+    padding: 2em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    
+}
+section#news section#comments
+{
+    padding-left: 1em;
+    
+}
+
+section#news p
+{
+    padding-left: 1em;
+    
+}
+
+section#news section#comments article > p:first-of-type::first-letter {
+    font-size: 1em;
+}
+
+section#comments article.comment p::before {
+    content: "“";
+    font-size: 3rem;
+    margin: 0;
+    position: relative;
+    top: 15px;
+    color: #CCCCCC;
+}
+
+section#comments article.comment span.user {
+    font-style: italic;
+}
+
+section#comments article.comment span.user::after {
+    font-style: normal;
+    content: " said:";
+}
+
+section#comments article.comment span.date {
+    float: right;
+    padding-right: 2em;
+}
+
+section#comments form {
+    background-color: #EDEFF0;
+    margin: 2em;
+    padding: 2em;
+    padding-top: 0em;
+    padding-left: 0em;
+}
+
+section#comments form h2{
+    font-size: 1em;
+}

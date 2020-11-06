@@ -1,0 +1,199 @@
+*{
+    font-family: Verdana, Georgia;
+}
+
+header{ 
+    width: 100%;
+    background: #046DD5;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 0.5em;
+}
+
+header h1{
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+    margin-left: 0.5em;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+
+header h2 a{
+    margin-left: 1.3em;
+    font-size: 0.5em;
+    line-height: 0em;
+    padding-bottom: 0em;
+}
+
+header h2{
+    margin-top: 0.1em;
+    margin-bottom: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+}
+header div a
+{
+    font-size: 0.7em;
+    line-height: 0.5em;
+}
+
+header div
+{
+    margin-left: 1em;
+    margin-top: 0em;
+    padding-top: 0.2em;
+}
+
+#signup > :first-child::after{
+    content: " | ";
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    padding: 0em;
+    margin: 0;
+    
+}
+
+nav li{
+    border-top-style: solid;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: white;
+
+}
+
+nav#menu li:nth-child(1)
+{
+    border-top: solid #E1493E;
+    border-width: 0.4em;
+}
+
+nav#menu li:nth-child(2)
+{
+    border-top: solid #8ABA56;
+    border-width: 0.4em;
+}
+
+nav#menu li:nth-child(3)
+{
+    border-top: solid #5B4282;
+    border-width: 0.4em;
+}
+
+nav#menu li:nth-child(4)
+{
+    border-top: solid #FF8932;
+    border-width: 0.4em;
+}
+
+nav#menu li:nth-child(5)
+{
+    border-top: solid #19B6E9;
+    border-width: 0.4em;
+}
+
+nav#menu li:nth-child(6)
+{
+    border-top: solid #E84C8B;
+    border-width: 0.4em;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-size: 1em;
+    color: #2A2F33;
+    font-weight: bold;
+}
+#hamburger{    
+    display: none;
+}
+
+aside{
+    font: Verdana;
+    padding-top:0.5em;
+    padding-left:0.5em;
+    padding-bottom:0.5em;
+
+    background-color: #2A2F33;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+}
+
+aside p{
+    font-family : Georgia;
+    color: white;
+}
+
+section#news article header h1
+{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+section#news article header
+{
+    line-height: 1em;
+    text-shadow:4px 4px 4px #2A2F33;
+    width: 16em;
+    position: absolute;
+    background-color: transparent;
+}
+
+section#news article
+{
+    margin-top: 1em;
+    position: relative;
+    background-color: white;
+
+}
+
+section#news article header h1 a
+{
+    font-size: 1em;
+}
+
+section#news article img
+{
+    width: 100%;
+}
+
+section#news article > p:first-of-type::first-letter {
+    font-size: xx-large;
+}
+
+section#news article footer
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #F4655F;
+}
+section#news article footer
+{
+    color: white;
+    font-size: 0.8em;
+    padding-left: 0.5em;
+}
+
+section#news article footer a
+{
+    color: white;
+    text-underline-position: under;
+}
+
+section#news article footer > :first-child::before{
+    content: " By ";
+}
+
+section#news article footer > :last-child::after{
+    content: " comments ";
+}
